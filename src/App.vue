@@ -10,6 +10,7 @@ import DinamicArguments from './components/DinamicArguments.vue';
 import Modifiers from './components/Modifiers.vue';
 import Reactive from './components/Reactive.vue';
 import Ref from './components/Ref.vue';
+import Computed from './components/Computed.vue';
 </script>
 
 <template>
@@ -57,6 +58,10 @@ import Ref from './components/Ref.vue';
     <li>
       <b>Ref:</b>
       <Ref />
+    </li>
+    <li>
+      <b>Computed:</b>
+      <Computed />
     </li>
   </ul>
 </template>

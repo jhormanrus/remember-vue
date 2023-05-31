@@ -1,9 +1,11 @@
 <script setup>
 import { ref } from 'vue';
 
-const count = ref(0);
+const state = {
+  count: ref(0),
+};
 </script>
 
 <template>
-  <button @click="count++">count++ = {{ count }}</button>
+  <button @click="state.count.value++">count++ = {{ state.count }}</button>
 </template>

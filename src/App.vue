@@ -8,6 +8,8 @@ import JavascriptExpressions from './components/JavascriptExpressions.vue';
 import DirectiveArguments from './components/DirectiveArguments.vue';
 import DinamicArguments from './components/DinamicArguments.vue';
 import Modifiers from './components/Modifiers.vue';
+import Reactive from './components/Reactive.vue';
+import Ref from './components/Ref.vue';
 </script>
 
 <template>
@@ -47,6 +49,14 @@ import Modifiers from './components/Modifiers.vue';
     <li>
       <b>Directive modifiers:</b>
       <Modifiers />
+    </li>
+    <li>
+      <b>Reactive:</b>
+      <Reactive />
+    </li>
+    <li>
+      <b>Ref:</b>
+      <Ref />
     </li>
   </ul>
 </template>

@@ -11,6 +11,9 @@ import Modifiers from './components/Modifiers.vue';
 import Reactive from './components/Reactive.vue';
 import Ref from './components/Ref.vue';
 import Computed from './components/Computed.vue';
+import WritableComputed from './components/WritableComputed.vue';
+import ClassBinding from './components/ClassBinding.vue';
+import StyleBinding from './components/StyleBinding.vue';
 </script>
 
 <template>
@@ -62,6 +65,14 @@ import Computed from './components/Computed.vue';
     <li>
       <b>Computed:</b>
       <Computed />
+    </li>
+    <li>
+      <b>Class and style binding:</b>
+      <ClassBinding class="border" />
+    </li>
+    <li>
+      <b>Style binding:</b>
+      <StyleBinding />
     </li>
   </ul>
 </template>

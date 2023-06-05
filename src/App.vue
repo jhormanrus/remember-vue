@@ -14,6 +14,8 @@ import Computed from './components/Computed.vue';
 import WritableComputed from './components/WritableComputed.vue';
 import ClassBinding from './components/ClassBinding.vue';
 import StyleBinding from './components/StyleBinding.vue';
+import IfElse from './components/IfElse.vue';
+import Show from './components/Show.vue';
 </script>
 
 <template>
@@ -73,6 +75,14 @@ import StyleBinding from './components/StyleBinding.vue';
     <li>
       <b>Style binding:</b>
       <StyleBinding />
+    </li>
+    <li>
+      <b>If else directive:</b>
+      <IfElse />
+    </li>
+    <li>
+      <b>Show directive:</b>
+      <Show />
     </li>
   </ul>
 </template>

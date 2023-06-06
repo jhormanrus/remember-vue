@@ -14,8 +14,9 @@ import Computed from './components/Computed.vue';
 import WritableComputed from './components/WritableComputed.vue';
 import ClassBinding from './components/ClassBinding.vue';
 import StyleBinding from './components/StyleBinding.vue';
-import IfElse from './components/IfElse.vue';
-import Show from './components/Show.vue';
+import IfElseDirective from './components/IfElseDirective.vue';
+import ShowDirective from './components/ShowDirective.vue';
+import ForDirective from './components/ForDirective.vue';
 </script>
 
 <template>
@@ -78,11 +79,15 @@ import Show from './components/Show.vue';
     </li>
     <li>
       <b>If else directive:</b>
-      <IfElse />
+      <IfElseDirective />
     </li>
     <li>
       <b>Show directive:</b>
-      <Show />
+      <ShowDirective />
+    </li>
+    <li>
+      <b>For directive:</b>
+      <ForDirective />
     </li>
   </ul>
 </template>

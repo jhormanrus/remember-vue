@@ -17,6 +17,7 @@ import StyleBinding from './components/StyleBinding.vue';
 import IfElseDirective from './components/IfElseDirective.vue';
 import ShowDirective from './components/ShowDirective.vue';
 import ForDirective from './components/ForDirective.vue';
+import OnDirective from './components/OnDirective.vue';
 </script>
 
 <template>
@@ -88,6 +89,10 @@ import ForDirective from './components/ForDirective.vue';
     <li>
       <b>For directive:</b>
       <ForDirective />
+    </li>
+    <li>
+      <b>Event handling:</b>
+      <OnDirective />
     </li>
   </ul>
 </template>

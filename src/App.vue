@@ -18,6 +18,7 @@ import IfElseDirective from './components/IfElseDirective.vue';
 import ShowDirective from './components/ShowDirective.vue';
 import ForDirective from './components/ForDirective.vue';
 import OnDirective from './components/OnDirective.vue';
+import InputBinding from './components/InputBinding.vue';
 </script>
 
 <template>
@@ -93,6 +94,10 @@ import OnDirective from './components/OnDirective.vue';
     <li>
       <b>Event handling:</b>
       <OnDirective />
+    </li>
+    <li>
+      <b>Input binding:</b>
+      <InputBinding />
     </li>
   </ul>
 </template>

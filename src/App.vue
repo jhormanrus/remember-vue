@@ -19,6 +19,7 @@ import ShowDirective from './components/ShowDirective.vue';
 import ForDirective from './components/ForDirective.vue';
 import OnDirective from './components/OnDirective.vue';
 import InputBinding from './components/InputBinding.vue';
+import TemplateRef from './components/TemplateRef.vue';
 </script>
 
 <template>
@@ -98,6 +99,10 @@ import InputBinding from './components/InputBinding.vue';
     <li>
       <b>Input binding:</b>
       <InputBinding />
+    </li>
+    <li>
+      <b>Template ref:</b>
+      <TemplateRef />
     </li>
   </ul>
 </template>

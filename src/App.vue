@@ -20,6 +20,8 @@ import ForDirective from './components/ForDirective.vue';
 import OnDirective from './components/OnDirective.vue';
 import InputBinding from './components/InputBinding.vue';
 import TemplateRef from './components/TemplateRef.vue';
+import PropsDeclaration from './components/PropsDeclaration.vue';
+import PropsDeclaration2 from './components/PropsDeclaration2.vue';
 </script>
 
 <template>
@@ -103,6 +105,12 @@ import TemplateRef from './components/TemplateRef.vue';
     <li>
       <b>Template ref:</b>
       <TemplateRef />
+    </li>
+    <li>
+      <b>Props declaration:</b>
+      <PropsDeclaration :index="3" item="Banana" />
+      <br />
+      <PropsDeclaration2 :item-index="4" :item="{ name: 'Apple' }" is-last />
     </li>
   </ul>
 </template>

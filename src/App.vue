@@ -108,9 +108,11 @@ import PropsDeclaration2 from './components/PropsDeclaration2.vue';
     </li>
     <li>
       <b>Props declaration:</b>
-      <PropsDeclaration :index="3" item="Banana" />
+      <PropsDeclaration :index="2" item="Pinia" />
       <br />
-      <PropsDeclaration2 :item-index="4" :item="{ name: 'Apple' }" is-last />
+      <PropsDeclaration v-bind="{ index: 3, item: 'Banana' }" />
+      <br />
+      <PropsDeclaration2 item-index="4" is-last :callback="() => 'hola'" />
     </li>
   </ul>
 </template>
